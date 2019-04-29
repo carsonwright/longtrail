@@ -9,7 +9,7 @@ var path = require('path');
 
 var historyFile = path.join(os.homedir(), '.node_history');
 
-var repl = require('repl').start('concert> ');
+var repl = require('repl').start('longtrail> ');
 
 
 const reload = (context)=>{
