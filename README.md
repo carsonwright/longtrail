@@ -70,6 +70,21 @@ yarn c
 yarn db
 ```
 
+### Migrate Database
+```
+yarn db:migrate
+```
+
+### Seed Database
+```
+yarn db:seed
+```
+
+### Generate Migration
+```
+yarn generate migration createOrganizations
+```
+
 Goals
 * Full Testing test suite for all Core Components (Tests were removed to help secure Next In Line's Intelectual Property)
 * Full Controller support instead of Actions
