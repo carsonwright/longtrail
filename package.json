@@ -23,6 +23,7 @@
         "diff-json-structure": "^1.0.8",
         "express": "^4.16.3",
         "faker": "^4.1.0",
+        "find-my-way": "^2.0.1",
         "graphql": "^14.0.2",
         "handlebars": "^4.0.12",
         "icepick": "^2.3.0",
