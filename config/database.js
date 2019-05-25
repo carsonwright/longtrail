@@ -13,7 +13,7 @@ module.exports = {
         asyncStackTraces: true,
         // version: '7.2',
         connection: {
-            database: 'your_application_development'
+            database: 'example_app'
         }
     },
     test: {
