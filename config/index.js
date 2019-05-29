@@ -9,8 +9,9 @@ const service = `${process.env.SERVICE}`.toLocaleLowerCase() !== 'false'
 const workers = `${process.env.WORKERS}`.toLocaleLowerCase() !== 'false'
 const scheduling = `${process.env.SCHEDULING}`.toLocaleLowerCase() !== 'false'
 const repl = `${process.env.REPL}`.toLocaleLowerCase() !== 'false'
-const services = {workers, scheduling}
+const state = {workers, scheduling}
 const env = process.env.NODE_ENV || 'development'
+
 
 module.exports = environments[env]({
     database,
@@ -18,7 +19,7 @@ module.exports = environments[env]({
     logging,
     hipaa,    
     service,
-    services,
+    state,
     repl,
     env
 })

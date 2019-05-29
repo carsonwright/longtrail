@@ -4,7 +4,7 @@ const config = require('config')
 const EventEmitter = require( "events" );  
 EventEmitter.defaultMaxListeners = 23;
 
-if(config.services.scheduling){
+if(config.state.scheduling){
     const logger = require('lib/logger');
     const http = require('http');
 

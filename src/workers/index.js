@@ -1,4 +1,4 @@
-const ExampleWorker = require('ExampleWorker')
+const ExampleWorker = require('./ExampleWorker')
 
 const workers = {
     ExampleWorker
