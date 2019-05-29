@@ -16,8 +16,7 @@ We have also done what we can to make the processing of data act more like a rec
 
 ## Downloading and Installation
 ```
-git clone git@github.com:next-in-line/longtrail.git
-mv longtrail your-app-name
+git clone git@github.com:next-in-line/longtrail.git your-app-name
 cd your-app-name
 yarn install
 ```
