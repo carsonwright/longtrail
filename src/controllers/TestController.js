@@ -2,6 +2,7 @@ const Controller = require('lib/controller')
 const {Test} = require('src/models');
 const logger = require('lib/logger')
 const exampleParams = require('src/params/example')
+
 class TestController extends Controller {
     async index(){
         this.render({
@@ -10,7 +11,7 @@ class TestController extends Controller {
     }
     
     async show(){
-        this.render('hello world')
+        this.render(`hello world ${this.params.id}`)
     }
 
     async create(){

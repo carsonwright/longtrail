@@ -18,7 +18,6 @@
         "clean-deep": "^3.0.2",
         "clear-require": "^2.0.0",
         "concurrently": "^4.1.0",
-        "core": "../core/",
         "database-cleaner": "^1.2.0",
         "diff": "^3.5.0",
         "diff-json-structure": "^1.0.8",
